@@ -1,3 +1,5 @@
+import './Experiencias.css';
+
 export function Experiencias(){
     return(
         <div>

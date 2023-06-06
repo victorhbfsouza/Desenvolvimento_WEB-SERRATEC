@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: blueviolet;
+}
+
+.componentDiMountAPI{
+  color: white;
+  background-color: blueviolet;
+  text-align: center;  
+}
+
+body{
+  color: white;
+  background-color: blueviolet;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button{
+  background-color: rgb(80, 4, 151);
+  color: white;
+  text-align: center;
+}

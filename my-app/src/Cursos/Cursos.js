@@ -1,3 +1,5 @@
+import './Cursos.css';
+
 export function Cursos(){
     return(
         <div>
