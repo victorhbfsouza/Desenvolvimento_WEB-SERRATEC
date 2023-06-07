@@ -21,11 +21,19 @@
 
 #titleContainer img {
     width: 80px;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+#titleContainer img:hover {
+    transform: scale(1.1);
 }
 
 #contentContainer {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
 
     max-height: 600px;
